@@ -1,0 +1,4 @@
+intent VaultAnalyticsQuickSummary {
+  domain: 'analytics'
+  ttl_ms: 45000
+}

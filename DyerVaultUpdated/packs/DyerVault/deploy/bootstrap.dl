@@ -1,0 +1,4 @@
+bootstrap DyerVault {
+  load Pack 'DyerVault'
+  set VaultCrypto.rotation_ms = 5000
+}

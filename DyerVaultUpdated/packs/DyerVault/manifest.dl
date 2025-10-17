@@ -1,0 +1,12 @@
+pack DyerVault v9.0.0 {
+  description: 'Ephemeral, provable, intent-driven vault'
+  authors: ['Matthew Dyer']
+  license: 'Proprietary - Dyer-Tech'
+  modules: [
+    'dv.intent','dv.policy_vm','dv.crypto','dv.zk','dv.mpc','dv.dp','dv.encindex',
+    'dv.fragment','dv.stream','dv.scheduler','dv.enclave','dv.kernels.core',
+    'dv.ledger','dv.governance','dv.observability','dv.ops','dv.cli','dv.deploy',
+    'dv.bench','dv.chaos'
+  ]
+  backends: ['WASM','CUDA','TEE','FPGA','SmartNIC']
+}

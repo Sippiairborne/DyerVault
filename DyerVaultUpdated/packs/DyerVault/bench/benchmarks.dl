@@ -1,0 +1,4 @@
+benchmark HotPathAnalytics {
+  setup: intent VaultAnalyticsQuickSummary
+  target: { p50latencyms: <=20 }
+}

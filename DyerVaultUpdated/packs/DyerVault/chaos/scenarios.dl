@@ -1,0 +1,3 @@
+chaos ScenarioRotationAndFaults {
+  step KillNode { disable 'edge-memphis-02' for 120000 ms }
+}

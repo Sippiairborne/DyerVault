@@ -1,0 +1,2 @@
+#!/usr/bin/env dyershell
+echo '==> Running DyerVault tests'
